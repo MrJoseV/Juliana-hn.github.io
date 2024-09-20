@@ -1,3 +1,9 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    }
+
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
@@ -117,12 +123,14 @@ h2, h3{
 
 .custom-proyectos {
     background-color: rgb(237, 201, 133);
-    height: 650px;
+    height: auto;
+    width: 100%;
 }
 
 .custom-educacion{
     background-color: rgb(252, 204, 228);
-    height: 400px;
+    height: auto;
+    width: 100%;
 }
 
 .btn-social i{
